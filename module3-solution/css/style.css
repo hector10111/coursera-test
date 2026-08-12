@@ -49,6 +49,7 @@ background-color: #ffffff;
   padding: 20px;
   margin-bottom: 20px;
   border: 1px solid #e1e1e1;
+  min-height: 800px; 
 }
 .section-heading {
   font-size: 20px;

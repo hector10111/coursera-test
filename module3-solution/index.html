@@ -1,28 +1,73 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Assignment Module 3</title>
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
 
-    <title>Bootstrap Starter Page</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-  </head>
+  <link rel="stylesheet" href="css/style.css">
+</head>
 <body>
 
-  <h1>Hello Coursera!</h1>
 
-  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav-collapse" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Food, LLC</a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="main-nav-collapse">
+        <ul class="nav navbar-nav navbar-right visible-xs text-center">
+          <li><a href="#poultry-card">Chicken</a></li>
+          <li><a href="#meat-card">Beef</a></li>
+          <li><a href="#seafood-card">Sushi</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="container">
+    <h1 class="text-center main-title">Our Menu</h1>
+    
+    <div class="row">
+
+      <div class="col-md-4 col-sm-4 col-xs-12">
+        <div id="poultry-card" class="menu-item-block">
+          <h2 class="text-center section-heading">Chicken</h2>
+          <p>Experience our premium hand-cut chicken selection, meticulously marinated in an authentic signature seasoning blend. Each portion is lightly grilled over an open flame to preserve maximum flavor and tenderness, providing a truly distinct culinary experience that highlights locally sourced fresh ingredients daily.</p>
+        </div>
+      </div>
+
+
+      <div class="col-md-4 col-sm-4 col-xs-12">
+        <div id="meat-card" class="menu-item-block">
+          <h2 class="text-center section-heading">Beef</h2>
+          <p>Our premium prime beef options feature carefully selected cuts that undergo a traditional slow-aging process to guarantee ultimate tenderness. Seasoned gently with premium coarse sea salt and cracked peppercorns, this savory dish delivers an exceptionally rich flavor profile crafted to perfection by our chefs.</p>
+        </div>
+      </div>
+
+
+      <div class="col-md-4 col-sm-4 col-xs-12">
+        <div id="seafood-card" class="menu-item-block">
+          <h2 class="text-center section-heading">Sushi</h2>
+          <p>Savor our delicate array of signature artisan sushi rolls, masterfully hand-prepared using absolute top-tier sashimi-grade seafood. Accompanied by perfectly seasoned vinegared rice, crisp fresh vegetables, and subtle house-made dipping sauces, it presents a beautiful balance of clean flavors and culinary craft.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
   <script src="js/jquery-1.11.3.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
-  <script src="js/script.js"></script>
 </body>
 </html>
+
